@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="content">
+            <div class="error-page">
+                <div class="error-page__inner">
+                    <img
+                        class="error-page__inner-image"
+                        src="public/500.png"
+                        alt="Error image"
+                    >
+                    <div class="error-page__inner-content">
+                        <p id="error-status-code" class="error-page__inner-content-code">
+                            500
+                        </p>
+                        <p id="error-text" class="error-page__inner-content-title">
+                            Something went wrong...
+                        </p>
+                        <p id="error-request-id" class="error-page__inner-content-text">
+                            Request-id: 2fedd721-794e-49c5-b92e-b3ecc6b1a6cc
+                        </p>
+                        <div class="error-page__inner-content-button">
+                            <a id="back-redirect-link"
+                                class="error-page__inner-content-button-link"
+                                href="/"
+                                target="_self"
+                            >
+                                Go home
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
